@@ -1,0 +1,12 @@
+.myPost {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.myPositionOfCross {
+    position: relative;
+    right: 10px;
+    top: -17px;
+}

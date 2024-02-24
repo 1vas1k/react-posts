@@ -1,0 +1,20 @@
+.myAvatar {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    border: solid 1px white;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.myAvatar:hover {
+    border: solid yellow 2px;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.myAvatar:active {
+    transform: scale(1.0);
+}

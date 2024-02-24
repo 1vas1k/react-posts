@@ -1,0 +1,38 @@
+.myDivInput {
+    position: relative;
+    margin: 12px 5px;
+}
+
+.myInput {
+    outline: none;
+    padding: 8px 6px;
+    color: white;
+    background-color: black;
+    border: white solid 1px;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    
+}
+
+.myInput:focus {
+    border: yellow solid 1px;
+}
+
+.myLabel {
+    position: absolute;
+    top: 8px;
+    left: 6px;
+    transition: 0.3s;
+    color: rgba(225, 225, 225, 0.7);
+    pointer-events: none;
+}
+
+.myInput:focus ~ .myLabel,
+.myInput:not(:placeholder-shown) ~ .myLabel {
+    font-size: 10px;
+    top: -15px;
+    transition: 0.3s;
+}

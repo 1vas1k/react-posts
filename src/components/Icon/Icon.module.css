@@ -1,0 +1,11 @@
+.myIcon {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border: black solid 2px;
+    background-color: white;
+    border-radius: 100%;
+    border: white solid 1px;
+    background-position: center;
+    background-size: cover;
+}

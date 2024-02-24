@@ -1,0 +1,10 @@
+.myShell {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: fit-content;
+    border-radius: 15px;
+    border: white solid 1px;
+    background-color: black;
+}

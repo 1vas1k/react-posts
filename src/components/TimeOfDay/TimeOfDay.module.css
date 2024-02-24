@@ -1,0 +1,17 @@
+.myContainer {
+    /* position: absolute; */
+    background-color: black;
+    /* top: 100px; */
+    /* right: 10px; */
+    height: 60px;
+    width: 60px;
+    border-radius: 7px;
+    border: solid white 1px;
+    color: white;
+    transition: 0.5s;
+}
+
+.myContainer:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}

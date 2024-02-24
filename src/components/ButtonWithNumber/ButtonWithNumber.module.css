@@ -1,0 +1,11 @@
+.myButtonWithNumber {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 3);
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}

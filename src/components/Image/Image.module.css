@@ -1,0 +1,28 @@
+.myImage {
+    height: 40px;
+    width: 40px;
+    /* background-color: rgb(255, 255, 255); */
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: white solid 1px;
+    transition: 0.4s;
+
+    color: white;
+}
+
+.myImage:hover {
+    /* background-color: rgb(116, 116, 116); */
+    background-color: white;
+    transform: scale(1.1);
+    color: black;
+    
+    /* border: solid black 3px; */
+}
+
+.myImage:active {
+    transform: scale(1.0);
+}

@@ -1,0 +1,9 @@
+.myName {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    letter-spacing: 4px;
+    color: white;
+}

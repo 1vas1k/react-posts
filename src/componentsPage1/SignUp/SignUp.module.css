@@ -1,0 +1,241 @@
+.myBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.myContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: white solid 1px;
+    border-radius: 12px;
+    width: 35%;
+    height: 70%;
+    padding: 20px;
+
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.myP {
+    font-size: 25px;
+}
+
+.myContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.myForm {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myRowInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.myFormButton {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: white solid 1px;
+    border-radius: 4px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.myFormButton:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+    border: solid black 1px;
+    transition: 0.2s;
+}
+
+.myFormButtonForAvatar {
+    width: 98%;
+    padding: 10px;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: white solid 1px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.myFormButtonForAvatar:hover {
+    transform: scale(1.05);
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    transition: 0.2s;
+}
+
+.myOtherVariantContainer {
+    width: 100%;
+    margin: 10px 0 0 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myOtherVariant {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.myParentP {
+    position: relative;
+    height: 100%;
+    cursor: pointer;
+    background: transparent;
+    z-index: 1;
+
+    /* color: white;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border: none; */
+}
+
+.signIn {
+    padding: 0 4px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.signIn::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    border-radius: 4px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transition: height 0.3s ease;
+    z-index: -1;
+}
+
+.signIn:hover {
+    color: black;
+    transition: 0.3s;
+}
+
+.signIn:hover::after {
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.myUnderline {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: -1;
+    left: 0;
+    z-index: 2;
+
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.myParentP:hover ~ .myUnderline {
+    background-color: yellowgreen;
+}
+
+.mySecondPage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myCurrentAvatar {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    border: solid white 1px;
+    background-color: white;
+    margin-top: 15px;
+
+    background-position: center;
+    background-size: cover;
+}
+
+.myAvatarContainer {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    width: 100%;
+    height: 180px;
+    /* background-color: aliceblue; */
+}
+
+.myRow {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,95 @@
+.myButtonContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.myAddButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    cursor: pointer;
+    border: solid white 1px;
+    border-radius: 8px;
+    transition: 0.2s;
+
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.myAddButton:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+.myAddButton:active {
+    transform: scale(1.0);
+}
+
+.myContainer {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 20px 0px;
+    border-radius: 15px;
+    background-color: black;
+    border: white solid 1px;
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px 25px 0px 25px;
+
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.myDivInput {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.myInput {
+    border-radius: 4px;
+    border: white solid 1px;
+    background-color: black;
+    color: white;
+    min-height: 10px;
+    padding: 4px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: 0.3s;
+    outline: none;
+}
+
+.myLabel {
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    pointer-events: none;
+    transition: 0.3s;
+    color: rgba(225, 225, 225, 0.7);
+}
+
+.myInput:focus {
+    border: yellow solid 1px;
+}
+
+.myInput:focus ~ .myLabel,
+.myInput:not(:placeholder-shown) ~ .myLabel {
+    top: -13px;
+    font-size: 10px;
+}
